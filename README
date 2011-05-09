@@ -1,0 +1,10 @@
+This is a *very* simple and innocent script, written in a couple of minutes, because I needed it.
+And you know what? It saves me numerous minutes of my time every weeks, so I share it.
+
+I put it in a cronjob: I drop raw movies from my camcorder into a specific dir on my NAS, the script
+eat each file at the root of that directory with a wanted extension (avi, mp2, mpg, mpeg2) and convert it in avi (xvid 900K/s, mp3=128CBR)
+and put the encoded file in an other directory. And destroy the original file.
+
+You need mplayer in your path, with mp3lame and libxvid.
+
+I just check NOTHING: if you lose some data, blame yourself.
